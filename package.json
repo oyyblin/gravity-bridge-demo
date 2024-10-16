@@ -1,0 +1,17 @@
+{
+  "name": "gravity-bridge-demo",
+  "version": "1.0.0",
+  "description": "Example to withdrawing G token from Gravity to L1",
+  "main": "withdraw.js",
+  "scripts": {
+    "start": "node withdraw.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@arbitrum/sdk": "^4.0.0",
+    "dotenv": "^16.4.5",
+    "ethers": "^5.1.0"
+  }
+}
