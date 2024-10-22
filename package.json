@@ -1,8 +1,7 @@
 {
   "name": "gravity-bridge-demo",
   "version": "1.0.0",
-  "description": "Example to withdrawing G token from Gravity to L1",
-  "main": "withdraw.js",
+  "description": "This demo showcases bridging and withdrawing G tokens between Gravity Alpha Testnet and Sepolia",
   "scripts": {
     "withdraw": "node withdraw.js",
     "bridge": "node bridge.js"

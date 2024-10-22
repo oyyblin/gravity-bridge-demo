@@ -1,15 +1,27 @@
-# Gravity Bridge Demo
+# 🌌 Gravity Bridge Demo
 
-This is a simple example of bridging and withdrawing G token to and from Gravity Alpha Testnet Sepolia.
+This demo showcases bridging and withdrawing G tokens between Gravity Alpha Testnet and Sepolia. 🚀
 
-## Example Withdraw
+## 📋 Prerequisites
+
+- Node.js and Yarn installed
+- Necessary environment variables set (details to be added)
+
+## 🛠️ Installation
 
 ```bash
-yarn
+yarn install
+```
+
+## 🚀 Usage
+
+### 🔄 Withdraw G tokens from Gravity to Sepolia
+
+```bash
 yarn withdraw
 ```
 
-### Example output
+#### Example output
 
 ```
 >> yarn withdraw
@@ -31,16 +43,18 @@ Executing message...
 Done! Your withdrawal is executed 0x343a4e18de12dd097a6aef224a2973387bb1e6ebb88967732b97d72ecc1bfc50
 ```
 
-L2 tx: https://explorer-sepolia.gravity.xyz/tx/0x67238cd835f27245418fb905e779262e8d87e49af94e9ff5e6ed68153629525b
-L1 tx: https://sepolia.etherscan.io/tx/0x343a4e18de12dd097a6aef224a2973387bb1e6ebb88967732b97d72ecc1bfc50
+#### Example Transactions
 
-## Example Bridge
+- 🔗 L2 (Gravity) transaction: [Explorer Link](https://explorer-sepolia.gravity.xyz/tx/0x67238cd835f27245418fb905e779262e8d87e49af94e9ff5e6ed68153629525b)
+- 🔗 L1 (Sepolia) transaction: [Etherscan Link](https://sepolia.etherscan.io/tx/0x343a4e18de12dd097a6aef224a2973387bb1e6ebb88967732b97d72ecc1bfc50)
+
+### 🌉 Bridge G tokens from Sepolia to Gravity
 
 ```bash
 yarn bridge
 ```
 
-### Example output
+#### Example output
 
 ```
 >> yarn withdraw
@@ -53,3 +67,13 @@ Bridging...
 Bridge tx:  0x7c8b17e2128f5d46464631c4d099f025a9a3d1065c8a21832464ab2d785c2636
 Child Result: 0x14a0ab45e685634914afdc7c78a8312855ed4d6a4c8962cf4e16720b65c5d9f5
 ```
+
+#### Example Transactions
+
+- 🔗 L2 (Gravity) transaction: [Explorer Link](https://explorer-sepolia.gravity.xyz/tx/0x7c8b17e2128f5d46464631c4d099f025a9a3d1065c8a21832464ab2d785c2636)
+- 🔗 L1 (Sepolia) transaction: [Etherscan Link](https://sepolia.etherscan.io/tx/0x14a0ab45e685634914afdc7c78a8312855ed4d6a4c8962cf4e16720b65c5d9f5)
+
+## 📚 References
+
+- 🔗 Gravity network contracts: https://docs.gravity.xyz/contract-addresses/mainnet
+- 🔗 Arbitrum SDK: https://github.com/OffchainLabs/arbitrum-sdk
