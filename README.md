@@ -1,5 +1,8 @@
 # 🌌 Gravity Bridge Demo
 
+> [!IMPORTANT]  
+> This repo has been deprecated and moved to the [official Galxe repo](https://github.com/Galxe/gravity-bridge-demo).
+
 This demo showcases bridging and withdrawing G tokens between Gravity Alpha Testnet and Sepolia. 🚀
 
 ## 📋 Prerequisites
