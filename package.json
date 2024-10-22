@@ -4,7 +4,8 @@
   "description": "Example to withdrawing G token from Gravity to L1",
   "main": "withdraw.js",
   "scripts": {
-    "start": "node withdraw.js"
+    "withdraw": "node withdraw.js",
+    "bridge": "node bridge.js"
   },
   "keywords": [],
   "author": "",

@@ -39,16 +39,6 @@ const {
         rollup: "0xDE145C4Ef9699D130848167d512dD1D09f173066",
         sequencerInbox: "0x3eb7334755Fb41dC01400B15C8cC0C64B36E5969",
       },
-      tokenBridge: {
-        l1ERC20Gateway: "0x5eaf6cfe7e8c386bff1e36ffe55014f28a8b061c",
-        l2ERC20Gateway: "0x8c82825b115ba53a77b1d6b6c72d14c6d95a2ab1",
-        l1CustomGateway: "0x7bb1e669b48c93eaad8766e6dc607e7160a964dc",
-        l2CustomGateway: "0x730eca29f7a17952fe8b44e324083944f73e4544",
-        l1WethGateway: "0x0000000000000000000000000000000000000000",
-        l2WethGateway: "0x0000000000000000000000000000000000000000",
-        l1Weth: "0x0000000000000000000000000000000000000000",
-        l2Weth: "0x0000000000000000000000000000000000000000",
-      },
     };
 
     // Initialize the L2Network
